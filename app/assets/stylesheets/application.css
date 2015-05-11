@@ -89,6 +89,8 @@ body {
     margin-top: 65px;
 }
 
+/*          Subscription Form */
+
 .main .subscribe {
     color: #FFFFFF;
     text-shadow: 0 1px 4px rgba(0, 0, 0, 0.33);
@@ -97,12 +99,21 @@ body {
 }
 
 .form-instruction {
-  font-size: 13px;
+    font-size: 13px;
 }
 
 .btn {
-  font-size: 13px;
+    font-size: 13px;
 }
+
+form {
+    display: inline-block;
+    float: center;
+    clear: center;
+    width: 450px;
+    text-align: center;
+}
+
 
 /*.form-control {
   font-size: 13px;
@@ -112,14 +123,8 @@ body {
     width: 100%;
 }*/
 
-form{
-    display: inline-block;
-    float: left;
-    clear: left;
-    width: 250px;
-    text-align: center;
-}
+
 /*input {
   display: inline-block;
   float: left;
-}*/
+}
