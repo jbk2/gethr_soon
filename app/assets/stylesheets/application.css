@@ -104,6 +104,22 @@ body {
   font-size: 13px;
 }
 
-.form-control {
+/*.form-control {
   font-size: 13px;
 }
+
+#subscribe-form {
+    width: 100%;
+}*/
+
+form{
+    display: inline-block;
+    float: left;
+    clear: left;
+    width: 250px;
+    text-align: center;
+}
+/*input {
+  display: inline-block;
+  float: left;
+}*/
