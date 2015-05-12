@@ -1,0 +1,21 @@
+<div class="subscribe">
+  <h5 class="form-instruction">
+    Sign up for your early invite. 
+  </h5>
+  <div class="row">
+    <%= form_for User.new, html: { class: "form-inline form-group transparent", id: "subscribe-form", role: "form" } do |u| %>
+  
+      <%= u.label :name, 'Name here...' %>
+      <%= u.text_field :name %>
+
+      <%= u.label :email, 'Your email here...' %>
+      <%= u.text_field :email %>
+
+      <%= u.submit 'Notify me', html: { class: 'btn btn-danger btn-fill' } %>
+    <% end %>
+  </div>
+</div>
+
+<!-- <input type="name" class="form-control transparent" placeholder="Name here...">
+        <input type="email" class="form-control transparent" placeholder="Your email here...">
+ -->
