@@ -3,15 +3,13 @@
     Sign up for your early invite. 
   </h5>
   <div class="row">
-    <%= form_for User.new, html: { class: "form-inline form-group transparent", id: "subscribe-form", role: "form" } do |u| %>
+    <%= form_for User.new, class: "form-inline", id: "subscribe-form", role: "form" do |u| %>
   
-      <%= u.label :name, 'Name here...' %>
-      <%= u.text_field :name %>
+      <%= u.text_field :name, placeholder: 'Name here...', class: 'form-control' %>
 
-      <%= u.label :email, 'Your email here...' %>
-      <%= u.text_field :email %>
+      <%= u.text_field :email, placeholder: 'Your email here...', class: 'form-control'%>
 
-      <%= u.submit 'Notify me', html: { class: 'btn btn-danger btn-fill' } %>
+      <%= u.submit 'Notify me', class: 'btn btn-danger btn-fill' %>
     <% end %>
   </div>
 </div>
