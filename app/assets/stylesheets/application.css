@@ -110,7 +110,15 @@ form {
     display: inline-block;
     float: center;
     clear: center;
-    width: 450px;
+    width: auto;
     text-align: center;
 }
 
+/*@media (max-width: 200px) {
+  .main {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
+*/

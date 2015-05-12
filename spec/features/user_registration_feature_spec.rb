@@ -5,6 +5,6 @@ describe 'user registration' do
     visit '/users/index'
     fill_in 'Your email here...', with: 'test1@test.com'
     click_button('Notify me')
-    expect(page).to have_content("Congratulations")
+    expect(page).to have_content("Congratlations - You're on the Beta list.")
   end
 end
