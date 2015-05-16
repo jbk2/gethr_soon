@@ -114,6 +114,10 @@ form {
     text-align: center;
 }
 
+form .line {
+    margin-bottom: 3px;
+}
+
 /*@media (max-width: 200px) {
   .main {
     display: block;
