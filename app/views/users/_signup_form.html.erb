@@ -3,7 +3,7 @@
     Sign up for your early invite. 
   </h5>
   <div class="row">
-    <%= form_for User.new, class: "form", id: "subscribe-form", role: "form" do |u| %>
+    <%= form_for @users, class: "form", id: "subscribe-form", role: "form" do |u| %>
     <div class="line">
       <%= u.text_field :name, placeholder: 'Name here...', class: 'form-control' %>
     </div>
@@ -16,7 +16,3 @@
     <% end %>
   </div>
 </div>
-
-<!-- <input type="name" class="form-control transparent" placeholder="Name here...">
-        <input type="email" class="form-control transparent" placeholder="Your email here...">
- -->
